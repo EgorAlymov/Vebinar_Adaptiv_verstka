@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+}
+
+.header {
+    height: 100px;
+    background-color: aqua;
+    width: 100%;
+    float: left;
+}
+
+.left {
+    height:100px;
+    background-color: chartreuse;
+    float: left;
+}
+
+.content {
+    width: 78%;
+    background-color: #ffd57a;
+    margin-left: 2%;
+    float: left;
+}
+
+/* при сжатии до 767px content переходит ниже left */
+@media all and (max-width: 767px) {
+    .left {
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.clr {
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+
+.footer {
+    height: 100px;
+    background-color:cadetblue;
+    width: 100%;
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

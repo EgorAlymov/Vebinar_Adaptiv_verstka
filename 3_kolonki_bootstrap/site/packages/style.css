@@ -1,0 +1,25 @@
+/* если хотим поменять фон>панель разработчика>стили> копируем и вставляем сюда и меняем */
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(179, 164, 212) !important;
+}
+
+.col1 {
+    background: rgb(197, 138, 138);
+}
+
+.col2 {
+    background: rgb(138, 197, 194);
+}
+
+.col3 {
+    background: rgb(169, 187, 103);
+}
+
+.col4 {
+    background: rgb(187, 103, 152);
+}
+
+.col5 {
+    background: rgb(182, 84, 84);
+}
